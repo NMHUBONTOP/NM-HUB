@@ -272,3 +272,12 @@ local Button = Tab:CreateButton({
 local Tab = Window:CreateTab("✅ Compatibility", nil) -- Title, Image
 
 local Label = Tab:CreateLabel("Your Executor Should Be Fully Supported ✅", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+
+        local Tab = Window:CreateTab("Misc", nil) -- Title, Image
+
+        local Button = Tab:CreateButton({
+   Name = "Jun Ultimate R15",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tariviste/Scripts/refs/heads/main/someone%20broke%20int%20the%20house"))()
+   end,
+})
